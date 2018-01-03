@@ -1,0 +1,9 @@
+{
+  "name": "lets",
+  "version": "1.0.0",
+  "main": "lets.js",
+  "bin": {
+    "lets": "lets.js"
+  },
+  "license": "MIT"
+}

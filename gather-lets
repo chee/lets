@@ -1,0 +1,2 @@
+#!/bin/sh
+grep -v 'goodideas' "$1" | awk -F'\t' $'$3 ~ /^let\'?s/ {print $3}'

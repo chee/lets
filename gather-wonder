@@ -1,0 +1,2 @@
+#!/bin/sh
+grep -v goodideas "$1" | awk -F'\t' $'$3 ~ /^(i|do you ever|do you|but i) wonder/ {print $3}' | sort | uniq
