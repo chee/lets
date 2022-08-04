@@ -1,6 +1,6 @@
 {
   "name": "lets",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lets.js",
   "bin": {
     "lets": "lets.js"
